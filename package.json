@@ -16,7 +16,8 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12"
+    "webpack-cli": "^2.0.12",
+    "react-share": "^2.2.0"
   },
   "engines": {
     "node": "8.x"

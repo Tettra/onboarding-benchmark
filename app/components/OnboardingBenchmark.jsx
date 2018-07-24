@@ -1,6 +1,20 @@
 const React = require('react');
+const ReactShare = require('react-share');
+
+const {
+  FacebookShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  EmailShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon,
+  EmailIcon,
+} = ReactShare;
 
 const QUESTION_RESPONSES = require('../data/question-responses.js');
+
+const URL = window.location.href;
 
 class Response extends React.Component {
     render() {
@@ -11,15 +25,33 @@ class Response extends React.Component {
                     <span className="fuchsia">Q{this.props.index}: </span>
                     {question}
                 </h1>
-                <h2 className="h1 mt2 percentil-header">{percentile}<span className="h2 ml1">rd percentile</span></h2>
+                <div className="mt2 mb2">You answered: <b>{response}</b></div>
+                {percentile && <h2 className="h1 mt2 percentil-header center">{percentile}</h2>}
                 <p>{body}</p>
                 <ol>
-                    { list.map(response => (<li>{response}</li>))}
+                    { list && list.map(response => (<li>{response}</li>))}
                 </ol>        
             </div>
         );
     }
 }
+
+const ShareButtons = () => (
+  <div>
+    <FacebookShareButton url={URL}>
+      <FacebookIcon size={32} round={false} />
+    </FacebookShareButton>
+    <TwitterShareButton url={URL}>
+      <TwitterIcon size={32} round={false} />
+    </TwitterShareButton>
+    <EmailShareButton url={URL}>
+      <EmailIcon size={32} round={false} />
+    </EmailShareButton>
+    <LinkedinShareButton url={URL}>
+      <LinkedinIcon size={32} round={false} />
+    </LinkedinShareButton>
+  </div>
+);
 
 class OnboardingBenchmark extends React.Component {
     render() {
@@ -42,6 +74,7 @@ class OnboardingBenchmark extends React.Component {
         return (
             <div>
                 <nav className="clearfix white bg-fuchsia">
+                  <FacebookShareButton url={URL} />
                     <div className="sm-col">
                         <a href="/" className="btn py2">Survey Results</a>
                     </div>
@@ -49,6 +82,7 @@ class OnboardingBenchmark extends React.Component {
                         <a href="https://tettra.co" className="btn py2">About Tettra</a>
                     </div>
                 </nav>
+                <ShareButtons />
                 <section className="container">
                     <div className="sm-col-8 mx-auto mb4">
                         { responses }
