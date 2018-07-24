@@ -33,7 +33,7 @@ class OnboardingBenchmark extends React.Component {
           return (
             <section className="container">
               <div>Please take survey</div>
-              <a href="https://www.surveymonkey.com/r/DNJJFLC" target="_blank" className="h2">
+              <a href="https://www.surveymonkey.com/r/DNJJFLC" className="h2">
                 Onboarding survey
               </a>
             </section>
