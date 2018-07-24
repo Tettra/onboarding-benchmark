@@ -1,6 +1,6 @@
 const getParamsFromSearchURL = url => url.slice(1).split('&').reduce((params, pairs) => {
     const [key, value] = pairs.split('=');
-    key && value && (params[key.toLowerCase()] = getValue(value));
+    key && value && getValue(value) && (params[key.toLowerCase()] = getValue(value));
     return params;
 }, {});
 
@@ -9,7 +9,7 @@ const getValue = value => {
     try {
         return responseMap[value];
     } catch (e) {
-        return value;
+        return;
     }
 };
 

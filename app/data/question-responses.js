@@ -8,7 +8,7 @@ const QUESTION_RESPONSES = {
         "Use a common tool to aggregate interview notes and feedback",
         "Decide in advance who is the final decider on extending an offer"
       ],
-      "question": "How long to recruit and hire?",
+      "question": "How long does it take, on average, to recruit and hire a new employee?",
       "response": "less than one month"
     },
     "b": {
@@ -19,11 +19,11 @@ const QUESTION_RESPONSES = {
         "Use a common tool to aggregate interview notes and feedback",
         "Decide in advance who is the final decider on extending an offer"
       ],
-      "question": "How long to recruit and hire?",
+      "question": "How long does it take, on average, to recruit and hire a new employee?",
       "response": "1-2 months"
     },
     "c": {
-    	  "question": "How long to recruit and hire?",
+    	  "question": "How long does it take, on average, to recruit and hire a new employee?",
     "percentile": "82%",
       "body": "82% of teams recruit and hire faster than you. This isn’t necessarily a bad thing, since all teams behave differently, and different roles require different processes. However, it is an opportunity to get faster and save your team some time. Here are some ways you may be able to speed up:",
       "list": [
@@ -40,7 +40,7 @@ const QUESTION_RESPONSES = {
         "Use a common tool to aggregate interview notes and feedback",
         "Decide in advance who is the final decider on extending an offer"
       ],
-      "question": "How long to recruit and hire?",
+      "question": "How long does it take, on average, to recruit and hire a new employee?",
       "response": "More than 4 months"
     }
   },
@@ -53,7 +53,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Even though your onboarding process is quick, make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How long to onboard?",
+      "question": "How long does it take, on average, for a new hire to go through the official onboarding process?",
       "response": "less than one week"
     },
     "b": {
@@ -64,7 +64,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Even though your onboarding process is quick, make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How long to onboard?",
+      "question": "How long does it take, on average, for a new hire to go through the official onboarding process?",
       "response": "1-2 weeks"
     },
     "c": {
@@ -75,7 +75,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How long to onboard?",
+      "question": "How long does it take, on average, for a new hire to go through the official onboarding process?",
       "response": "3+ weeks"
     },
     "d": {
@@ -86,7 +86,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How long to onboard?",
+      "question": "How long does it take, on average, for a new hire to go through the official onboarding process?",
       "response": "We don’t have an official process"
     }
   },
@@ -99,7 +99,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How effectively do you onboard?",
+      "question": "How effectively does your team onboard new people?",
       "response": "We’re not great"
     },
     "b": {
@@ -111,7 +111,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How effectively do you onboard?",
+      "question": "How effectively does your team onboard new people?",
       "response": "We’re average"
     },
     "c": {
@@ -122,7 +122,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How effectively do you onboard?",
+      "question": "How effectively does your team onboard new people?",
       "response": "Pretty good"
     },
     "d": {
@@ -133,7 +133,7 @@ const QUESTION_RESPONSES = {
         "Invite others on your team to contribute to your knowledge base, so that you’re capturing a good breadth of information",
         "Make sure you’re taking the time to help people get comfortable, socially. Take people out for coffee or tea. If the new hire is located in the same city, take a walk around the neighborhood to show them the best lunch spots."
       ],
-      "question": "How effectively do you onboard?",
+      "question": "How effectively does your team onboard new people?",
       "response": "Great"
     }
   },
@@ -145,7 +145,7 @@ const QUESTION_RESPONSES = {
         "Write down your founding story. What was the idea that led to your organization getting started in the first place?",
         "Document your basic processes. If an existing team member wins the lottery tomorrow and leaves the team, make sure you’re able to transfer knowledge effectively."
       ],
-      "question": "How many people on your team?",
+      "question": "How many people are on your team?",
       "response": "Less than 10"
     },
     "b": {
@@ -155,7 +155,7 @@ const QUESTION_RESPONSES = {
         "Write down your founding story. What was the idea that led to your organization getting started in the first place?",
         "Document your basic processes. If an existing team member wins the lottery tomorrow and leaves the team, make sure you’re able to transfer knowledge effectively."
       ],
-      "question": "How many people on your team?",
+      "question": "How many people are on your team?",
       "response": "11-50"
     },
     "c": {
@@ -165,7 +165,7 @@ const QUESTION_RESPONSES = {
         "Write down your founding story. What was the idea that led to your organization getting started in the first place?",
         "Document your basic processes. If an existing team member wins the lottery tomorrow and leaves the team, make sure you’re able to transfer knowledge effectively."
       ],
-      "question": "How many people on your team?",
+      "question": "How many people are on your team?",
       "response": "51-100"
     },
     "d": {
@@ -175,29 +175,33 @@ const QUESTION_RESPONSES = {
         "Write down your founding story. What was the idea that led to your organization getting started in the first place?",
         "Document your basic processes. If an existing team member wins the lottery tomorrow and leaves the team, make sure you’re able to transfer knowledge effectively."
       ],
-      "question": "How many people on your team?",
+      "question": "How many people are on your team?",
       "response": "101+"
     }
   },
   "q5": {
     "a": {
-      "body": "Based on our data about time to recruit and onboard new people, you’ll likely spend 0-320 hours recruiting, hiring, and onboarding people next year. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Use a tool or wiki to document any necessary logins and passwords. Start taking note of the questions that come up repeatedly, so that you can continue to improve your documentation over time.",
-      "question": "How many people do you expect to hire over the next year?",
+      "percentile": "320 hours",
+      "body": "Based on our data about time to recruit and onboard new people, you’ll likely spend up to 320 hours recruiting, hiring, and onboarding people next year. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Use a tool or wiki to document any necessary logins and passwords. Start taking note of the questions that come up repeatedly, so that you can continue to improve your documentation over time.",
+      "question": "Roughly how many people do you expect to hire over the next year?",
       "response": "0-4"
     },
     "b": {
+      "percentile": "400-800 hours",
       "body": "Based on our data about time to recruit and onboard new people, you’ll likely spend 400-800 hours recruiting, hiring, and onboarding people next year. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Use a tool or wiki to document any necessary logins and passwords. Start taking note of the questions that come up repeatedly, so that you can continue to improve your documentation over time.",
-      "question": "How many people do you expect to hire over the next year?",
+      "question": "Roughly how many people do you expect to hire over the next year?",
       "response": "5-10"
     },
     "c": {
+      "percentile": "800-1600 hours",
       "body": "Based on our data about time to recruit and onboard new people, you’ll likely spend 880-1600 hours recruiting, hiring, and onboarding people next year. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Use a tool or wiki to document any necessary logins and passwords. Start taking note of the questions that come up repeatedly, so that you can continue to improve your documentation over time.",
-      "question": "How many people do you expect to hire over the next year?",
+      "question": "Roughly how many people do you expect to hire over the next year?",
       "response": "11-20"
     },
     "d": {
+      "percentile": "1,680+ hours",
       "body": "Based on our data about time to recruit and onboard new people, you’ll likely spend over 1,680 hours recruiting, hiring, and onboarding people next year. Make sure you’re being as efficient as possible by writing down your hiring process, your onboarding process, and any tools you use to do both functions. Use a tool or wiki to document any necessary logins and passwords. Start taking note of the questions that come up repeatedly, so that you can continue to improve your documentation over time.",
-      "question": "How many people do you expect to hire over the next year?",
+      "question": "Roughly how many people do you expect to hire over the next year?",
       "response": "21+"
     }
   }
